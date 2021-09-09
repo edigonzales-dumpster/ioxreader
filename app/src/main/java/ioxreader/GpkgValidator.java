@@ -19,8 +19,6 @@ public class GpkgValidator {
         List<String> files = new ArrayList<String>();
         files.add(new File(fileName).getAbsolutePath());
         
-        System.out.println(new File(fileName).getAbsolutePath());
-
         Settings settings = new Settings();
         settings.setValue(IoxWkfConfig.SETTING_GPKGTABLE, tableName);
         settings.setValue(Validator.SETTING_DISABLE_STD_LOGGER, Validator.TRUE);

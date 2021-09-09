@@ -28,10 +28,27 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
     
     // funktioniert
+    /*
     implementation 'ch.interlis:iox-api:1.0.4'
     implementation 'ch.interlis:iox-ili:1.20.18'
     implementation 'ch.interlis:iox-wkf:1.0.2'
     implementation 'ch.interlis:ilivalidator:1.11.5'
+    */
+    
+    // funktioniert nicht
+    /*
+    implementation 'ch.interlis:iox-api:1.0.4'
+    implementation 'ch.interlis:iox-ili:1.21.0'
+    implementation 'ch.interlis:iox-wkf:1.0.2'
+    implementation 'ch.interlis:ilivalidator:1.11.6'
+    */
+    
+    // funktioniert nicht (latest)
+    implementation 'ch.interlis:iox-api:1.0.4'
+    implementation 'ch.interlis:iox-ili:1.21.6'
+    implementation 'ch.interlis:iox-wkf:1.0.2'
+    implementation 'ch.interlis:ilivalidator:1.11.11-SNAPSHOT'
+    
 }
 
 application {
