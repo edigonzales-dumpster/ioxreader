@@ -33,7 +33,6 @@ dependencies {
     implementation 'ch.interlis:iox-ili:1.21.6'
     implementation 'ch.interlis:iox-wkf:1.0.2'
     implementation 'ch.interlis:ilivalidator:1.11.11-SNAPSHOT'
-    
 }
 
 application {
